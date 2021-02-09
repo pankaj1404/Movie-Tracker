@@ -8,7 +8,7 @@ const initialState = {
  
 const orderSelectionReducer =(state = initialState, action)=>{
     const releaseState = {...state};
-    debugger;
+    
     switch(action.type){
         case 'Release Date':
             const sortedByDate = state.movieList.sort((a, b) => {
