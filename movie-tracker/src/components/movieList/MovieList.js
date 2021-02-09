@@ -4,7 +4,7 @@ import MoviesMetaData from '../movieMetadata/MoviesMetaData.js';
 import {useSelector,useDispatch} from 'react-redux';
 
 const MovieList =()=>{
-    debugger;
+    
     const  posterDetails = useSelector(state=>state.posterDetails);
     const {movieList, orderList} = useSelector(state=>state.orderSelection);
     
