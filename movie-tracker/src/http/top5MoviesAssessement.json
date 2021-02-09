@@ -1,6 +1,7 @@
 {
   "type": "top-5-movies",
-  "components": [{
+  "components": [
+  {
     "type": "order-select",
     "items": [
       {
@@ -11,7 +12,8 @@
       "label": "Rank",
       "valueToOrderBy": "rank"
     }]
-  }, {
+  },
+   {
     "type": "movie-list",
     "items": [{
       "id": 2,

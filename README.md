@@ -17,8 +17,3 @@ npm install
 # How to run : 
 Npm run start either in visual studio or else normal cmd.
 
-
-
-
-
-
